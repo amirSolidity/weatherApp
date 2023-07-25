@@ -1,0 +1,41 @@
+@font-face {
+    font-family: nexa;
+    src: url(Nexa-ExtraLight.ttf);
+}
+.container{
+    width: 28rem;
+    height: 33rem;
+    background-color: #252525;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.imgDiv{
+    width: 100%;
+    margin-top: 4rem;
+}
+.startImg{
+    width: 12rem;
+    height: 12rem;
+}
+.startP1{
+    color: white;
+    font-family: nexa;
+    font-size: 1.7rem;
+    font-weight: bold;
+    white-space: normal;
+    margin-left: 3rem;
+    margin-right: 3rem;
+} 
+.startP2{
+    padding-top: 1rem;
+    color: #959595;
+    font-family: nexa;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
