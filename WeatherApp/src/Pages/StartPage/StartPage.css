@@ -3,10 +3,6 @@
     src: url(Nexa-ExtraLight.ttf);
 }
 .container{
-    width: 28rem;
-    height: 33rem;
-    background-color: #252525;
-    border-radius: 15px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -38,4 +34,11 @@
     white-space: normal;
     margin-left: 4rem;
     margin-right: 4rem;
+}
+.startBtn{
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
 }

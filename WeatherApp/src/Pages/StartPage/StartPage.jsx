@@ -1,6 +1,7 @@
-import "./StartPage.css"
 import 'bootstrap/dist/css/bootstrap.css';
+import "./StartPage.css"
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const StartPage = () => {
     return (
@@ -14,7 +15,9 @@ const StartPage = () => {
                     <p className="startP2">Just click on the button and find your name</p>
                 </div>
                 <div className="startBtnDiv">
-                    <Button variant="primary">Primary</Button>
+                    <Link to='/search'>
+                        <Button variant="primary" className='startBtn' >GET START</Button>
+                    </Link>
                 </div>
             </div> 
         </>
