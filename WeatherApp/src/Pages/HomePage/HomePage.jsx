@@ -1,6 +1,7 @@
 import "./HomePage.css"
 import StartPage from "../StartPage/StartPage"
 import Search from "../Search/Search"
+import Weather from "../Weather/Weather"
 import { Routes , Route } from "react-router-dom"
 
 
@@ -15,6 +16,7 @@ const HomePage = () => {
                         
                     <Route path="/search" element={<Search/>}/>
                     
+                    <Route path="/weather" element={<Weather/>}/>
 
                 </Routes>
             </div>
