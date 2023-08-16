@@ -49,3 +49,74 @@
 .numerical{
     color: white;
 }
+.Additional{
+    display: flex;
+    column-gap: 5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.Description1{
+    row-gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.des1Img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.num1{
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 0;
+}
+.text1{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Description2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    align-items: center;
+}
+.des2Img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.num2{
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 0;
+}
+.text2{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.Description3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    align-items: center;
+}
+.des3Img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.num3{
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 0;
+}
+.text3{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 0;
+}

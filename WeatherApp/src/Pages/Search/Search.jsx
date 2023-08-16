@@ -3,13 +3,17 @@ import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Search.css'
 import { AiOutlineArrowLeft } from 'react-icons/Ai';
+import { useState } from 'react';
 
 
 
 
-const Search = () => {
+const Search = (props) => {
+    
+    const [myInput , setMyInput] = useState('')
+    props.setInputValue(myInput)
     return(
-        <>
+        <>        
             <div className='searchDiv'>
                 <div className='backDiv'>
                     <Link to="/">
@@ -31,12 +35,12 @@ const Search = () => {
                 </div>
 
                 <div class="container">
-                    <input required="" type="text" name="text" class="input"/>
+                    <input required="" type="text" name="text" class="input" value={myInput} onChange={(event) => setMyInput(event.target.value)}/>
                     <label class="label">city name</label>
                 </div>
                 <div className='searchBtnDiv'>
                     <NavLink to='/weather'>
-                        <Button variant="primary" className='searchtBtn' >VIEW STATUS</Button>
+                        <Button variant="primary" className='searchtBtn' onClick={props.imgFunction}>VIEW STATUS</Button>
                     </NavLink>
                     
                 </div>
